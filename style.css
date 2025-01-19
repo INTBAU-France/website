@@ -33,23 +33,23 @@ a#qui-sommes-nous {
 }
 
 .main-link {
-    font-size: 20px;
     text-decoration: none;
     font-size: 23px;
     color: #ffffff;
     border: 2px #ffffff dotted;
     padding: 10px;
     background: #443786b5;
+    margin-bottom: 27px;
 }
 
 main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     margin: 50px;
-    width: -webkit-fill-available;
+    margin-top: 0px;
+    /* width: -webkit-fill-available; */
     width: -moz-available;          /* For Mozzila */
+    /* justify-content: flex-start; */
 }
 
 div#links {
@@ -63,12 +63,10 @@ div#links span {margin-bottom: 15px;font-size: larger;}
 
 div#columns {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
     width: 100%;
-    align-content: center;
+    justify-content: center;
 }
 
 div#social img {
@@ -114,4 +112,8 @@ img#meeting {
 p {
     white-space: pre-line;
     line-height: 20px;
+}
+
+img.logo {
+    width: 30%;
 }
