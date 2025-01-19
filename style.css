@@ -123,7 +123,8 @@ p {
 }
 
 img.logo {
-    width: 30%;
+    width: 33%;
+    margin-bottom: 30px;
 }
 
 a#avant-programme {
