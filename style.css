@@ -25,11 +25,10 @@ body {
 
 img#banner {
     width: 85%;
-    margin-bottom: 50px;
 }
 
 a#qui-sommes-nous {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .main-link {
@@ -47,6 +46,7 @@ main {
     flex-direction: column;
     margin: 50px;
     margin-top: 0px;
+    margin-bottom: 0px;
     /* width: -webkit-fill-available; */
     width: -moz-available;          /* For Mozzila */
     /* justify-content: flex-start; */
@@ -68,6 +68,8 @@ div#columns {
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 div#social img {
@@ -75,7 +77,6 @@ div#social img {
 }
 
 div#social {
-    margin-top: 10px;
     padding: 10px;
     width: 40%;
     border-top: 2px solid #423680;
@@ -122,4 +123,8 @@ p {
 
 img.logo {
     width: 30%;
+}
+
+a#avant-programme {
+    margin: 0;
 }
