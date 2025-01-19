@@ -28,11 +28,11 @@ img#banner {
     margin-bottom: 50px;
 }
 
-a#who {
+a#qui-sommes-nous {
     margin-bottom: 50px;
 }
 
-main a {
+.main-link {
     font-size: 20px;
     text-decoration: none;
     font-size: 23px;
@@ -48,6 +48,8 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 50px;
+    width: -webkit-fill-available;
+    width: -moz-available;          /* For Mozzila */
 }
 
 div#links {
@@ -93,4 +95,23 @@ div#title span {
 
 div#title img {
     width: 233px;
+}
+
+img#cover {
+    width: 80%;
+}
+
+main img {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: 100%;
+}
+
+img#meeting {
+    margin-top: 70px;
+}
+
+p {
+    white-space: pre-line;
+    line-height: 20px;
 }
