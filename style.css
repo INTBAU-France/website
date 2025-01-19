@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Abadi;
+    src: url(fonts/abadi-mt.ttf);
+  }
+
+html {
+      margin: 5%;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+  
+body {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Abadi;
+    color: #3f337e;
+}
+  
+
+
+
+img#banner {
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+a#who {
+    margin-bottom: 50px;
+}
+
+main a {
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #ffffff;
+    border: 2px #ffffff dotted;
+    padding: 10px;
+    background: #443786b5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+div#links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#links span {margin-bottom: 15px;font-size: larger;}
+
+div#columns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+}
+
+div#social img {
+    width: 30px;
+}
+
+div#social {
+    margin-top: 50px;
+}
+
+div#contact {
+    margin-top: 10px;
+}
+
+div#title {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+div#title span {
+    margin-left: 49px;
+}
+
+div#title img {
+    width: 233px;
+}
