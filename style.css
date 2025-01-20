@@ -204,7 +204,7 @@ a#accueil {
         width: 50%;
     }
     .main-link {
-    font-size: 60px;
+    /* font-size: 60px; */
     padding: 33px;
     border-width: 6px;
 }
@@ -247,9 +247,9 @@ img.logo {
     margin-left: 10%;
     margin-bottom: 50px;
 }
-    h2 {
+h2 {
         /* font-size:60px; */
-    }
+}
 }
 
 
