@@ -193,7 +193,7 @@ a#accueil {
     main {
         margin-top: 50px;
         margin-bottom: 50px;
-    
+        margin: 30px;
     }
 
     img#banner {
@@ -205,8 +205,8 @@ a#accueil {
     }
     .main-link {
     /* font-size: 60px; */
-    padding: 33px;
-    border-width: 6px;
+    /* padding: 33px; */
+    /* border-width: 6px; */
 }
     div#columns {
     flex-direction: column;
@@ -232,7 +232,7 @@ a#accueil {
     /* font-size: 50px; */
 }
 p {
-    line-height: 50px;
+    /* line-height: 50px; */
     /* font-size: 35px; */
 }
 div#link-container {
