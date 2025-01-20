@@ -224,7 +224,7 @@ aside a {
     margin-bottom: 20px;
 }
 div#social img {
-    width: 100px;
+    /* width: 100px; */
 }
 div#social {/* border-width: 5px; */}
 a#accueil {
