@@ -175,9 +175,14 @@ p#planning {
     padding-top: 0px;
 }
 
-b {}
 
 a#accueil {
     position: fixed;
     left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background: #009fd2;
+    }
+  }
