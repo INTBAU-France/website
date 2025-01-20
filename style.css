@@ -1,16 +1,16 @@
 @font-face {
     font-family: Abadi;
     src: url(fonts/abadi-mt.ttf);
-  }
+}
 
 html {
-      margin: 5%;
-      margin-top: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    margin: 5%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-  
+
 body {
     max-width: 800px;
     display: flex;
@@ -19,8 +19,6 @@ body {
     font-family: Abadi;
     color: #3f337e;
 }
-  
-
 
 
 img#banner {
@@ -28,7 +26,7 @@ img#banner {
 }
 
 a#qui-sommes-nous {
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
 }
 
 .main-link {
@@ -48,7 +46,8 @@ main {
     margin-top: 0px;
     margin-bottom: 0px;
     /* width: -webkit-fill-available; */
-    /*! width: -moz-available; */          /* For Mozzila */
+    /*! width: -moz-available; */
+    /* For Mozzila */
     justify-content: center;
     align-items: center;
 }
@@ -181,8 +180,78 @@ a#accueil {
     left: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background: #009fd2;
+@media (orientation: portrait) {
+    html {
+        margin: 0;
+        /* font-size: 50px; */
     }
-  }
+
+    body {
+        max-width: unset;
+        width: 100%;
+    }
+    main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+    }
+
+    img#banner {
+        width: 100%;
+    }
+
+    div#title img {
+        width: 50%;
+    }
+    .main-link {
+    font-size: 60px;
+    padding: 33px;
+    border-width: 6px;
+}
+    div#columns {
+    flex-direction: column;
+}
+    div#utiles {
+    /* font-size: 50px; */
+}
+aside {
+    background: #b6c3ed;
+    padding: 30px;
+    color: #ffffff;
+    margin: 20px;
+}
+aside a {
+    margin-bottom: 20px;
+}
+div#social img {
+    width: 100px;
+}
+div#social {/* border-width: 5px; */}
+a#accueil {
+    position: unset;
+    /* font-size: 50px; */
+}
+p {
+    line-height: 50px;
+    /* font-size: 35px; */
+}
+div#link-container {
+    justify-content:center;
+}
+div#logos {
+    flex-direction: column;
+}
+img.logo {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+    h2 {
+        /* font-size:60px; */
+    }
+}
+
+
+
+h2 {}
