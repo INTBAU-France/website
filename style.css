@@ -37,7 +37,7 @@ a#qui-sommes-nous {
     color: #ffffff;
     border: 2px #ffffff dotted;
     padding: 10px;
-    background: #443786b5;
+    background: #6b5fa4;
     margin-bottom: 27px;
 }
 
@@ -49,7 +49,7 @@ main {
     margin-bottom: 0px;
     /* width: -webkit-fill-available; */
     width: -moz-available;          /* For Mozzila */
-    /* justify-content: flex-start; */
+    justify-content: center;
     align-items: center;
 }
 
@@ -57,10 +57,15 @@ div#links {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
-div#links span {margin-bottom: 15px;font-size: 16px;}
+div#utiles {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
 
 div#columns {
     display: flex;
@@ -120,13 +125,57 @@ img#meeting {
 p {
     white-space: pre-line;
     line-height: 20px;
+    width: 100%;
 }
 
 img.logo {
-    width: 33%;
-    margin-bottom: 30px;
+    height: 60px;
 }
 
 a#avant-programme {
     margin: 0;
+}
+
+aside {
+    background: #b6c3ed;
+    padding: 10px;
+    color: #ffffff;
+}
+
+aside a {
+    color: #2a307b;
+}
+
+div#link-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div#logos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+b {
+    font-size: 17px;
+    /* font-weight: lighter; */
+}
+
+p#planning {
+    background: #e0e7ff;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+b {}
+
+a#accueil {
+    position: fixed;
+    left: 5px;
 }
