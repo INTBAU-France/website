@@ -48,7 +48,7 @@ main {
     margin-top: 0px;
     margin-bottom: 0px;
     /* width: -webkit-fill-available; */
-    width: -moz-available;          /* For Mozzila */
+    /*! width: -moz-available; */          /* For Mozzila */
     justify-content: center;
     align-items: center;
 }
@@ -140,10 +140,12 @@ aside {
     background: #b6c3ed;
     padding: 10px;
     color: #ffffff;
+    /*! min-width: 246px; */
 }
 
 aside a {
     color: #2a307b;
+    white-space: nowrap;
 }
 
 div#link-container {
