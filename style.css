@@ -84,7 +84,7 @@ div#social img {
 div#social {
     padding: 10px;
     width: 40%;
-    border-top: 2px solid #423680;
+    border-top: 2px solid #645a97;
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
@@ -166,7 +166,7 @@ div#logos {
 
 b {
     font-size: 17px;
-    /* font-weight: lighter; */
+    font-weight: lighter;
 }
 
 p#planning {
