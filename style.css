@@ -273,7 +273,8 @@ h2 {
 	mso-pattern:black none;
 	white-space:nowrap;}
 .xl665014
-	{padding-top:1px;
+	{
+	padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
 	mso-ignore:padding;
@@ -290,7 +291,8 @@ h2 {
 	border:.5pt solid windowtext;
 	background:#DAF2D0;
 	mso-pattern:black none;
-	white-space:nowrap;}
+	white-space: normal;
+	}
 .xl675014
 	{padding-top:1px;
 	padding-right:1px;
