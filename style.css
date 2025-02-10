@@ -676,15 +676,16 @@ div#dedicaces h2 {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    border-bottom: 1px solid;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    border-top: 1px solid;
+    margin-top: 25px;
+    padding-top: 50px;
 }
 
 .organisateur img {
     width: 200px;
     height: max-content;
     margin: 15px;
+    margin-bottom: 35px;
 }
 
 .target {
