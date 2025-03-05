@@ -9,6 +9,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
 }
 
 body {
@@ -25,19 +26,22 @@ img#banner {
     width: 85%;
 }
 
-a#qui-sommes-nous {
-    margin-bottom: 50px;
+div#columns main .main-link {
+    width: -moz-available;
+    width: -webkit-fill-available;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .main-link {
     text-decoration: none;
-    font-size: 19px;
+    font-size: 18px;
     color: #ffffff;
     border: 2px #ffffff dotted;
     padding: 10px;
     background: #6b5fa4;
-    margin-bottom: 27px;
     cursor: pointer;
+    margin-bottom: 27px;
 }
 
 main {
@@ -49,8 +53,8 @@ main {
     /* width: -webkit-fill-available; */
     /*! width: -moz-available; */
     /* For Mozzila */
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 div#links {
@@ -73,8 +77,7 @@ div#columns {
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 div#social img {
@@ -83,7 +86,7 @@ div#social img {
 
 div#social {
     padding: 10px;
-    width: 40%;
+    width: 37%;
     border-top: 2px solid #645a97;
     display: flex;
     justify-content: space-around;
@@ -141,6 +144,8 @@ aside {
     padding: 10px;
     color: #ffffff;
     /*! min-width: 246px; */
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
 aside a {
@@ -692,4 +697,12 @@ div#dedicaces h2 {
 
 .target {
     display: none;
+}
+
+h2#vu-entendu {
+    margin-top: 75px;
+}
+
+p#vu-entendu-p {
+    margin-bottom: 50px;
 }
